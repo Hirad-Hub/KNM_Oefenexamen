@@ -1,0 +1,1567 @@
+{
+  "quizzes": [
+    {
+      "quiz_id": 1,
+      "quiz_name": "Oefentoests 01",
+      "questions": [
+        {
+          "question_id": 1,
+          "question": "De GBA betekent",
+          "answers": [
+            { "id": "a", "text": "Geestelijke basisadministratie" },
+            { "id": "b", "text": "Gemeentelijke basisadministratie" },
+            { "id": "c", "text": "Gerechtelijke basisadministratie" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 2,
+          "question": "In de GBA staan persoonsgegevens van alle bewoners van Nederland.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 3,
+          "question": "Uw burgerlijke staat verandert als u gaat trouwen.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 4,
+          "question": "Jan en Marie gaan naar de gemeente om aan te geven dat ze getrouwd zijn. Ze moeten hun huwelijksakte en legitimatiebewijs meenemen.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 5,
+          "question": "Vanaf welke leeftijd moet u zich kunnen legitimeren?",
+          "answers": [
+            { "id": "a", "text": "Vanaf 14 jaar" },
+            { "id": "b", "text": "Vanaf 18 jaar" },
+            { "id": "c", "text": "Vanaf 21 jaar" },
+            { "id": "d", "text": "Je moet je altijd legitimeren" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 6,
+          "question": "Wat is geen christelijk feest?",
+          "answers": [
+            { "id": "a", "text": "Hemelvaartsdag" },
+            { "id": "b", "text": "Oudejaarsdag" },
+            { "id": "c", "text": "Pasen" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 7,
+          "question": "Kiezen de burgers de burgemeester?",
+          "answers": [
+            { "id": "a", "text": "Ja" },
+            { "id": "b", "text": "Nee, de gemeenteraad kiest de burgemeester" },
+            {
+              "id": "c",
+              "text": "Nee, de gemeenteraad en de regering kiezen samen de burgemeester"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 8,
+          "question": "Marijke heeft een bijstandsuitkering. Moet zij werk zoeken?",
+          "answers": [
+            { "id": "a", "text": "Ja" },
+            {
+              "id": "b",
+              "text": "Ja, maar niet als ze een alleenstaande ouder is met jonge kinderen"
+            },
+            { "id": "c", "text": "Nee, dat is niet verplicht" },
+            {
+              "id": "d",
+              "text": "Nee, in overleg met de sociale dienst wordt er voor haar een uitzondering gemaakt"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 9,
+          "question": "Welke uitkering is voor mensen vanaf 65 (of 66, 67) jaar?",
+          "answers": [
+            { "id": "a", "text": "AOW" },
+            { "id": "b", "text": "WAO" },
+            { "id": "c", "text": "WIA" },
+            { "id": "d", "text": "WW" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 10,
+          "question": "Hoe laat gaan Nederlanders meestal op visite?",
+          "answers": [
+            { "id": "a", "text": "Om 6 uur ‘s avonds" },
+            { "id": "b", "text": "Om 7 uur ‘s avonds" },
+            { "id": "c", "text": "Om 8 uur ‘s avonds" },
+            {
+              "id": "d",
+              "text": "Nooit, Nederlanders willen liever niet dat je ‘s avonds langs komt"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 11,
+          "question": "Welk afval mag niet bij het restafval?",
+          "answers": [
+            { "id": "a", "text": "Een batterij" },
+            { "id": "b", "text": "Een leeg colablikje" },
+            { "id": "c", "text": "Het deksel van een pot" },
+            { "id": "d", "text": "Een kapotte driezitsbank" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 12,
+          "question": "Jannie en Gijs willen een kapotte koelkast weggooien. Wat moeten ze doen?",
+          "answers": [
+            { "id": "a", "text": "De koelkast naar de chemokar brengen" },
+            {
+              "id": "b",
+              "text": "De koelkast naast de container op straat zetten"
+            },
+            {
+              "id": "c",
+              "text": "Het afvaldepot bellen om een afspraak te maken"
+            },
+            {
+              "id": "d",
+              "text": "De koelkast naar een tweedehandswinkel brengen"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 13,
+          "question": "“Anoniem” betekent dat",
+          "answers": [
+            { "id": "a", "text": "De persoon bij de politie werkt" },
+            { "id": "b", "text": "De persoon bekend is bij de politie" },
+            {
+              "id": "c",
+              "text": "De persoon zijn persoonlijke gegevens niet vertelt"
+            },
+            { "id": "d", "text": "De gegevens veilig worden opgeslagen" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 14,
+          "question": "De pincode is geheim en hoort alléén bij uw bankpas.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 15,
+          "question": "Wat staat er niet in de grondwet?",
+          "answers": [
+            { "id": "a", "text": "Discriminatie is verboden" },
+            { "id": "b", "text": "Er is vrijheid van meningsuiting" },
+            { "id": "c", "text": "Hindoestaanse scholen zijn verboden" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 16,
+          "question": "Alex heeft een dikke wang. Alex heeft om 10 uur een afspraak bij de tandarts. De tandarts maakt een foto van de kies. De tandarts gaat de kies trekken. Wat betekent dat?",
+          "answers": [
+            { "id": "a", "text": "De kies moet weg" },
+            { "id": "b", "text": "De kies wordt langer" },
+            { "id": "c", "text": "De kies blijft" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 17,
+          "question": "De medewerker vraagt naar uw werkervaring.",
+          "answers": [
+            { "id": "a", "text": "U vertelt welke opleidingen u heeft gedaan" },
+            { "id": "b", "text": "U vertelt welke banen u heeft gehad" },
+            {
+              "id": "c",
+              "text": "U vertelt wat u allemaal belangrijk vindt als u werkt"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 18,
+          "question": "Bij het uitzendbureau wordt gevraagd wat uw arbeidswensen zijn. Wat vertelt u?",
+          "answers": [
+            { "id": "a", "text": "U vertelt welke opleidingen u heeft gedaan" },
+            { "id": "b", "text": "U vertelt welke banen u heeft gehad" },
+            {
+              "id": "c",
+              "text": "U vertelt wat u allemaal belangrijk vindt als u werkt"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 19,
+          "question": "Een vacature is",
+          "answers": [
+            { "id": "a", "text": "Een plek voor iemand om te gaan werken" },
+            { "id": "b", "text": "Een vakantieperiode" },
+            { "id": "c", "text": "Een baan voor één uur per dag" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 20,
+          "question": "In een advertentie staat: 'Verder kunt u goed aanpakken'. Dat betekent:",
+          "answers": [
+            { "id": "a", "text": "Dat u dozen kunt inpakken" },
+            { "id": "b", "text": "Dat u hard moet kunnen werken" },
+            { "id": "c", "text": "Dat u niet hard hoeft te werken" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 21,
+          "question": "Wat zijn achterstandswijken?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Wijken met veel criminaliteit, vandalisme en overlast"
+            },
+            { "id": "b", "text": "Wijken met te weinig huizen" },
+            { "id": "c", "text": "Wijken met zwarte scholen" },
+            { "id": "d", "text": "Wijken zonder politiebureau" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 22,
+          "question": "Een bibliotheekpasje gebruik je om",
+          "answers": [
+            { "id": "a", "text": "Materialen van de bibliotheek te lenen" },
+            {
+              "id": "b",
+              "text": "Op de computer van de bibliotheek te werken"
+            },
+            { "id": "c", "text": "Boeken van de bibliotheek te betalen" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 23,
+          "question": "Fatima heeft het VMBO gedaan en ze wil een opleiding doen tot onderwijsassistent op het MBO. Kan dit?",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 24,
+          "question": "Mario wil arts worden. Hij moet VWO hebben gedaan om deze opleiding te volgen.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 25,
+          "question": "Waar kan Mario studiefinanciering aanvragen?",
+          "answers": [
+            { "id": "a", "text": "DUO" },
+            { "id": "b", "text": "Gemeente" },
+            { "id": "c", "text": "Belastingdienst" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 26,
+          "question": "Wat zijn klaar-overs?",
+          "answers": [
+            { "id": "a", "text": "Mensen die klaar zijn" },
+            {
+              "id": "b",
+              "text": "Mensen die kinderen helpen oversteken bij de school"
+            },
+            { "id": "c", "text": "Mensen die oudere mensen helpen oversteken" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 27,
+          "question": "De route naar school is veilig betekent:",
+          "answers": [
+            { "id": "a", "text": "De route naar school is kort" },
+            { "id": "b", "text": "De route naar school is zonder gevaar" },
+            { "id": "c", "text": "De route naar school is makkelijk te lopen" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 28,
+          "question": "Wat kun je niet automatisch betalen?",
+          "answers": [
+            { "id": "a", "text": "De boodschappen" },
+            { "id": "b", "text": "De energierekening" },
+            { "id": "c", "text": "De huur" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 29,
+          "question": "Hoe heet het bedrag wat op je bankrekening staat?",
+          "answers": [
+            { "id": "a", "text": "Bedrag" },
+            { "id": "b", "text": "Rente" },
+            { "id": "c", "text": "Saldo" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 30,
+          "question": "Waar krijgen baby’s vaccinaties?",
+          "answers": [
+            { "id": "a", "text": "Bij de CGG" },
+            { "id": "b", "text": "Bij de GGD" },
+            { "id": "c", "text": "Bij de huisarts" },
+            { "id": "d", "text": "Bij het consultatiebureau" }
+          ],
+          "correct_answer": "d"
+        },
+        {
+          "question_id": 31,
+          "question": "De straat is autovrij betekent:",
+          "answers": [
+            { "id": "a", "text": "Er mogen auto’s op de straat rijden" },
+            { "id": "b", "text": "Er mogen geen auto’s op de straat rijden" },
+            { "id": "c", "text": "Er mogen fietsers op de straat rijden" },
+            {
+              "id": "d",
+              "text": "Er mogen auto’s en fietsers op de straat rijden"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 32,
+          "question": "Bij een veilige oversteekplaats kunt u",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Goed zien wat er aankomt als je wilt oversteken"
+            },
+            {
+              "id": "b",
+              "text": "Niet goed zien wat eraan komt als je wilt oversteken"
+            },
+            { "id": "c", "text": "Uw auto parkeren" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 33,
+          "question": "Vanaf welke leeftijd mogen kinderen naar de basisschool?",
+          "answers": [
+            { "id": "a", "text": "2 jaar" },
+            { "id": "b", "text": "3 jaar" },
+            { "id": "c", "text": "4 jaar" },
+            { "id": "d", "text": "5 jaar" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 34,
+          "question": "Vanaf welke leeftijd is er leerplicht in Nederland?",
+          "answers": [
+            { "id": "a", "text": "4 jaar" },
+            { "id": "b", "text": "5 jaar" },
+            { "id": "c", "text": "6 jaar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 35,
+          "question": "Wat betekenen de cijfers op het rapport?",
+          "answers": [
+            { "id": "a", "text": "1 is heel goed" },
+            { "id": "b", "text": "1 is heel slecht" },
+            { "id": "c", "text": "5 is goed" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 36,
+          "question": "In Nederland is veel water. Ook zijn rond sommige scholen vijvers en slootjes. Daarom is zwemles belangrijk voor de kinderen.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 37,
+          "question": "Alena en Marieke werken in de fabriek. Een transportauto met veel kleding is binnengekomen. Zij moeten nu alles netjes opruimen. Ze verdelen het werk goed, want Marieke zegt: 'Vele handen maken licht werk'. Wat bedoelt Marieke?",
+          "answers": [
+            { "id": "a", "text": "Ze gaan het licht aandoen op het werk" },
+            { "id": "b", "text": "Alena moet beide handen gebruiken" },
+            {
+              "id": "c",
+              "text": "Als iedereen een beetje helpt, wordt het voor iedereen makkelijker"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 38,
+          "question": "We gaan de taken doornemen, betekent:",
+          "answers": [
+            { "id": "a", "text": "We gaan de taken uitgebreid bespreken" },
+            { "id": "b", "text": "We gaan de taken snel bespreken" },
+            { "id": "c", "text": "We gaan de taken door de helft doen" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 39,
+          "question": "Alena praat met Marieke. Alena moet alle kleding per kleur verdelen, Marieke moet alle kleding per maat verdelen. Wat doet Alena?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Zij doet alle rode kleding bij rode kleding"
+            },
+            {
+              "id": "b",
+              "text": "Zij doet de grote kleding bij de grote kleding"
+            },
+            { "id": "c", "text": "Zij gooit alle kleding bij elkaar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 40,
+          "question": "Als u een idee heeft om uw werk te verbeteren, mag u dit niet zeggen in een functioneringsgesprek.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        }
+      ]
+    },
+
+    {
+      "quiz_id": 2,
+      "quiz_name": "Oefentoests 02",
+      "questions": [
+        {
+          "question_id": 1,
+          "question": "Zelfstandig wonen betekent",
+          "answers": [
+            {
+              "id": "a",
+              "text": "U woont op zichzelf in een huis of op kamers"
+            },
+            { "id": "b", "text": "U woont in een verzorgtehuis" },
+            {
+              "id": "c",
+              "text": "U woont op zichzelf en heeft geen eigen huis"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 2,
+          "question": "De huurtoeslag is",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Geld wat u extra terugkrijgt van de belasting"
+            },
+            { "id": "b", "text": "Geld wat u extra moet betalen" },
+            { "id": "c", "text": "Geld wat u moet lenen" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 3,
+          "question": "Een acceptgirokaart gebruikt u",
+          "answers": [
+            { "id": "a", "text": "Bij het betalen van een rekening" },
+            { "id": "b", "text": "Bij het ontvangen van geld" },
+            { "id": "c", "text": "Bij het sparen van geld" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 4,
+          "question": "U heeft een dochter van 14 jaar. Wat moet u op school voor haar betalen?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Niets. De school is gratis voor kinderen tot 18 jaar"
+            },
+            {
+              "id": "b",
+              "text": "U moet boeken kopen. Voor schoolreisjes en feesten kunt u ook betalen. Maar dat moet niet"
+            },
+            {
+              "id": "c",
+              "text": "U moet betalen voor schoolreisjes en feesten, en zo"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 5,
+          "question": "Elke vier jaar zijn er verkiezingen voor het bestuur van het Waterschap. Bent u verplicht om te stemmen?",
+          "answers": [
+            { "id": "a", "text": "Nee" },
+            { "id": "b", "text": "Ja" },
+            { "id": "c", "text": "Alleen als u een koophuis hebt" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 6,
+          "question": "Het is pauze. Iedereen drinkt koffie en praat. Mag je op je werk over alles praten?",
+          "answers": [
+            { "id": "a", "text": "Nee, niet over de baas" },
+            { "id": "b", "text": "Nee, niet over politiek" },
+            { "id": "c", "text": "Ja, over alles" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 7,
+          "question": "Uw fiets is gestolen. Wat kunt u het beste doen?",
+          "answers": [
+            { "id": "a", "text": "U kunt niets doen" },
+            { "id": "b", "text": "U gaat naar de politie om aangifte te doen" },
+            { "id": "c", "text": "U gaat naar de gemeente om aangifte te doen" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 8,
+          "question": "Wie betaalt de zorgverzekering niet?",
+          "answers": [
+            { "id": "a", "text": "De maatschappelijk werker" },
+            { "id": "b", "text": "De psychiater" },
+            { "id": "c", "text": "De psycholoog" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 9,
+          "question": "Krijgt iedereen dezelfde zorgtoeslag?",
+          "answers": [
+            { "id": "a", "text": "Ja" },
+            {
+              "id": "b",
+              "text": "Nee, iedereen krijgt zorgtoeslag, maar het bedrag hangt af van je inkomen"
+            },
+            {
+              "id": "c",
+              "text": "Nee, niet iedereen krijgt zorgtoeslag en het bedrag hangt af van je inkomen"
+            },
+            {
+              "id": "d",
+              "text": "Nee, niet iedereen krijgt zorgtoeslag maar het bedrag hangt niet af van je inkomen"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 10,
+          "question": "Wat is inkomstenbelasting?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Belasting die je betaalt als je een koophuis hebt"
+            },
+            { "id": "b", "text": "Belasting die je betaalt over je salaris" },
+            {
+              "id": "c",
+              "text": "Belasting die je betaalt voor het ophalen van afval"
+            },
+            {
+              "id": "d",
+              "text": "Belasting die je betaalt voor het rijden van een auto"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 11,
+          "question": "Wie is de baas van de politie in de gemeente?",
+          "answers": [
+            { "id": "a", "text": "De burgemeester" },
+            { "id": "b", "text": "De minister-president" },
+            { "id": "c", "text": "De wethouder" },
+            { "id": "d", "text": "De minister van Justitie" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 12,
+          "question": "Welk jaar was de Watersnoodramp?",
+          "answers": [
+            { "id": "a", "text": "1940" },
+            { "id": "b", "text": "1953" },
+            { "id": "c", "text": "1963" },
+            { "id": "d", "text": "1965" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 13,
+          "question": "Oude medicijnen kun je terugbrengen naar de apotheek.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 14,
+          "question": "Fries is een taal die alle Nederlanders spreken.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 15,
+          "question": "In Nederland is een zorgverzekering verplicht.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 16,
+          "question": "Bij de tandarts krijg je een ponsplaatje.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 17,
+          "question": "De zoon van Henk heeft op zaterdagochtend een klein ongelukje. Zijn vinger is tussen de deur gekomen en hij heeft veel pijn. Wat moet Henk doen?",
+          "answers": [
+            { "id": "a", "text": "Hij belt 112, er moet een ambulance komen" },
+            {
+              "id": "b",
+              "text": "Hij gaat snel naar de spoedeisende hulp van het ziekenhuis"
+            },
+            {
+              "id": "c",
+              "text": "Hij belt de huisartsen post en maakt een afspraak"
+            },
+            { "id": "d", "text": "Hij belt snel naar de tandarts" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 18,
+          "question": "Nederlandse ouders zoeken vaak een partner voor hun kinderen.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 19,
+          "question": "Een rijbewijs is 10 jaar geldig. Waar moet u uw rijbewijs laten vernieuwen na 10 jaar?",
+          "answers": [
+            { "id": "a", "text": "Bij de rijschool" },
+            { "id": "b", "text": "Bij de politie" },
+            { "id": "c", "text": "Bij de gemeente" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 20,
+          "question": "Wat is de hoofdstad van de provincie Overijssel?",
+          "answers": [
+            { "id": "a", "text": "Zwolle" },
+            { "id": "b", "text": "Apeldoorn" },
+            { "id": "c", "text": "Almelo" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 21,
+          "question": "Wat gebeurde er op 10 mei 1940?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Rotterdam werd gebombardeerd door de Duitsers"
+            },
+            {
+              "id": "b",
+              "text": "De Eerste Wereldoorlog begon in Nederland"
+            },
+            {
+              "id": "c",
+              "text": "De Tweede Wereldoorlog begon in Nederland"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 22,
+          "question": "Wat doet de arts van het consultatiebureau?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Als het kind ziek is, geeft de arts een recept voor medicijnen"
+            },
+            {
+              "id": "b",
+              "text": "De arts controleert de moeder en de baby"
+            },
+            {
+              "id": "c",
+              "text": "De arts kijkt naar de groei van het kind en wat het kind kan en doet"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 23,
+          "question": "Met een verwijsbrief ga je naar de apotheek.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 24,
+          "question": "Wat kun je zien in Rotterdam?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Europoort, de grootste haven van Europa"
+            },
+            { "id": "b", "text": "De Domtoren, een hoge toren" },
+            {
+              "id": "c",
+              "text": "Het IJselmeer, het grootste meer van Nederland"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 25,
+          "question": "Als u iets te vragen of te zeggen hebt in de vergadering, geeft u dat aan bij de 'Vaststelling van de agenda'.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 26,
+          "question": "Uw werkzaamheden zijn ...",
+          "answers": [
+            { "id": "a", "text": "De dingen die u doet" },
+            { "id": "b", "text": "De dingen die u op mijn werk ziet" },
+            {
+              "id": "c",
+              "text": "De dingen die u op uw werk wilt bespreken"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 27,
+          "question": "U mag een afspraak met de bedrijfsarts weigeren.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 28,
+          "question": "Een ziekteprotocol is een papier:",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Waarop alle regels staan over ziek- en betermelden op het werk"
+            },
+            {
+              "id": "b",
+              "text": "Waarop alle regels staan over wat u moet doen bij gezond werken"
+            },
+            {
+              "id": "c",
+              "text": "Waarop alle regels staan over wat u moet doen bij ziekte"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 29,
+          "question": "Een vervolgafspraak is",
+          "answers": [
+            { "id": "a", "text": "Een afspraak met een pauze" },
+            {
+              "id": "b",
+              "text": "Een afspraak die volgt op een eerdere afspraak"
+            },
+            { "id": "c", "text": "Een afspraak per telefoon" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 30,
+          "question": "De bedrijfsarts vraagt u: 'Wat heeft u gedaan, toen u deze klachten kreeg?' Wat zegt u?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Ik ben boodschappen gaan doen en daarna ben ik naar bed gegaan"
+            },
+            { "id": "b", "text": "Ik heb niets gedaan" },
+            {
+              "id": "c",
+              "text": "Ik heb een afspraak gemaakt bij mijn huisarts"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 31,
+          "question": "Een werkoverleg is",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Een gesprek op uw werk, over uw collega’s"
+            },
+            {
+              "id": "b",
+              "text": "Een gesprek op uw werk, over uw functioneren"
+            },
+            {
+              "id": "c",
+              "text": "Een gesprek op uw werk, om de werkzaamheden te regelen"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 32,
+          "question": "Producten die licht ontvlambaar zijn, kunnen niet zo makkelijk gaan branden.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 33,
+          "question": "Wie regelt de kinderbijslag?",
+          "answers": [
+            { "id": "a", "text": "De Belastingdienst" },
+            { "id": "b", "text": "De Sociale Verzekeringsbank (SVB)" },
+            { "id": "c", "text": "De gemeente" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 34,
+          "question": "Kinderen met leerproblemen gaan naar het speciaal basisonderwijs.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 35,
+          "question": "U moet voor een operatie naar het ziekenhuis. Daar moet u zeker drie dagen blijven. Wat mag u niet vergeten als u naar het ziekenhuis gaat?",
+          "answers": [
+            { "id": "a", "text": "Uw identiteitsbewijs" },
+            { "id": "b", "text": "Een afsprakenkaart" },
+            {
+              "id": "c",
+              "text": "Geld om het eten in het ziekenhuis te betalen"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 36,
+          "question": "Wat moet een zwangere vrouw doen als ze ongeveer vier maanden zwanger is?",
+          "answers": [
+            { "id": "a", "text": "Zij moet naar de huisarts gaan" },
+            {
+              "id": "b",
+              "text": "Zij moet zich melden bij het kraamcentrum"
+            },
+            {
+              "id": "c",
+              "text": "Zij moet hulp in huis vragen bij de verloskundige"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 37,
+          "question": "Je wilt met de auto van Utrecht naar Heerlen. Wat is de afstand en hoe lang doe je er ongeveer over?",
+          "answers": [
+            { "id": "a", "text": "180 kilometer in 1 uur en 55 minuten" },
+            { "id": "b", "text": "210 kilometer in 2 uur en 10 minuten" },
+            { "id": "c", "text": "250 kilometer in 2 en een half uur" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 38,
+          "question": "Willem van Oranje was protestant.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 39,
+          "question": "De inboedelverzekering is voor dingen die je bij iemand anders kapotmaakt.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 40,
+          "question": "U meldt zich ziek, betekent:",
+          "answers": [
+            {
+              "id": "a",
+              "text": "U laat officieel weten dat u ziek gaat worden"
+            },
+            {
+              "id": "b",
+              "text": "U laat officieel weten dat u beter bent"
+            },
+            { "id": "c", "text": "U laat officieel weten dat u ziek bent" }
+          ],
+          "correct_answer": "c"
+        }
+      ]
+    },
+
+    {
+      "quiz_id": 3,
+      "quiz_name": "Oefentoets 03",
+      "questions": [
+        {
+          "question_id": 1,
+          "question": "Wat is de gewoonte in Nederland als iemand is geslaagd voor het diploma op het voortgezet onderwijs?",
+          "answers": [
+            { "id": "a", "text": "De schooltas buiten hangen" },
+            { "id": "b", "text": "De jas buiten hangen" },
+            { "id": "c", "text": "Het diploma buiten hangen" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 2,
+          "question": "U ziet een jongen met een bal. Hij schopt de bal tegen uw winkelraam. Het raam is kapot en uw spullen ook. U bent boos. Mag u de jongen slaan?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Nee, maar u pakt de jongen en trekt hem hard aan zijn arm"
+            },
+            {
+              "id": "b",
+              "text": "Nee, maar u pakt de bal en maakt de bal kapot"
+            },
+            {
+              "id": "c",
+              "text": "Nee, u vraagt aan de jongen hoe hij heet en waar hij woont. U raakt hem niet aan"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 3,
+          "question": "In Nederland zijn heel veel politieke partijen. De partijen zijn rechts, links of middenpartijen. Welke combinatie is goed?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Het CDA = links, De PvdA = midden, De VVD = rechts"
+            },
+            {
+              "id": "b",
+              "text": "Het CDA = midden, De PvdA = links, De VVD = rechts"
+            },
+            {
+              "id": "c",
+              "text": "Het CDA = rechts, De PvdA = links, De VVD = midden"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 4,
+          "question": "Hassan wil graag in een schoenwinkel werken. De chef zegt dat Nederlanders harder werken. Hij wil Hassan niet aannemen. Wat kan Hassan het beste doen?",
+          "answers": [
+            { "id": "a", "text": "Naar de politie gaan" },
+            { "id": "b", "text": "Naar de Nationale Ombudsman gaan" },
+            { "id": "c", "text": "Naar het Anti Discriminatie Bureau gaan" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 5,
+          "question": "Iemand met de Nederlandse nationaliteit is altijd in Nederland geboren",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 6,
+          "question": "Als je een rekening declareert, moet je een formulier invullen",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 7,
+          "question": "Welke 2 buurlanden heeft Nederland?",
+          "answers": [
+            { "id": "a", "text": "België en Duitsland" },
+            { "id": "b", "text": "België en de Noordzee" },
+            { "id": "c", "text": "België en Frankrijk" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 8,
+          "question": "In welke provincie zijn er veel duinen?",
+          "answers": [
+            { "id": "a", "text": "Friesland" },
+            { "id": "b", "text": "Noord-Holland" },
+            { "id": "c", "text": "Zeeland" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 9,
+          "question": "Als je kiest voor een eigen risico, betaal je alle kosten zelf",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 10,
+          "question": "Met de euro betalen de mensen",
+          "answers": [
+            { "id": "a", "text": "Alleen in Nederland" },
+            { "id": "b", "text": "In veel landen in Europa" },
+            { "id": "c", "text": "In alle landen van Europa" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 11,
+          "question": "Friya kijkt hoe ze moet rijden naar Den Haag. Waar ligt Den Haag?",
+          "answers": [
+            { "id": "a", "text": "In het noorden van Nederland" },
+            { "id": "b", "text": "In het westen van Nederland" },
+            { "id": "c", "text": "In het oosten van Nederland" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 12,
+          "question": "Hoe heten de dijken die na de Watersnoodramp in Zeeland zijn gemaakt?",
+          "answers": [
+            { "id": "a", "text": "De Afsluitdijk" },
+            { "id": "b", "text": "De Deltawerken" },
+            { "id": "c", "text": "De Flevopolder" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 13,
+          "question": "Wanneer kwamen er veel gastarbeiders naar Nederland?",
+          "answers": [
+            { "id": "a", "text": "Na 1985" },
+            { "id": "b", "text": "Na de Tweede Wereldoorlog" },
+            { "id": "c", "text": "Na de Eerste Wereldoorlog" },
+            { "id": "d", "text": "Na de wederopbouw" }
+          ],
+          "correct_answer": "d"
+        },
+        {
+          "question_id": 14,
+          "question": "Welk briefje heb je nodig voor de specialist?",
+          "answers": [
+            { "id": "a", "text": "Een etiket" },
+            { "id": "b", "text": "Een recept" },
+            { "id": "c", "text": "Een verwijsbrief" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 15,
+          "question": "Bij de basisverzekering worden alle kosten voor je betaald",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 16,
+          "question": "In het groeiboekje staat een grafiek met de groeicurve van je baby",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 17,
+          "question": "De wijkverpleegkundige is een dokter",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 18,
+          "question": "Lina is drie jaar. De ouders van haar hebben een afspraak gemaakt met een basisschool. Ze krijgen informatie van de directeur van de school over het basisonderwijs",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 19,
+          "question": "De ouders van Lina krijgen tijdens het overleg de schoolgids om thuis de informatie nog eens rustig na te lezen. Wat staat er in de schoolgids?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Onder andere hoe zij hun kind kunnen aanmelden, de lestijden en de vakantiedagen"
+            },
+            { "id": "b", "text": "Onder andere hoe groot het schoolplein is" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 20,
+          "question": "Wat is de brugklas?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Het is een klas met een brug"
+            },
+            {
+              "id": "b",
+              "text": "Het is een klas met extra taallessen"
+            },
+            {
+              "id": "c",
+              "text": "Het is een klas waarin de definitieve keuze voor een schoolsoort wordt uitgesteld"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 21,
+          "question": "Wat doet het Anti Discriminatie Bureau met een klacht over discriminatie?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Dit bureau registreert uw klacht en kan zorgen dat u juridische hulp krijgt"
+            },
+            {
+              "id": "b",
+              "text": "Dit bureau geeft een gevangenisstraf of een boete aan degene die u heeft gediscrimineerd"
+            },
+            {
+              "id": "c",
+              "text": "Dit bureau doet onderzoek naar discriminatie in Nederland. Uw klacht wordt voor het onderzoek gebruikt"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 22,
+          "question": "Uw dochter gaat op kamers wonen. U maakt kennis met de buren. De buren zijn lesbische vrouwen. Wat kunt u het beste doen?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "U zoekt een andere kamer voor uw dochter"
+            },
+            {
+              "id": "b",
+              "text": "U waarschuwt de buren dat ze uit de buurt van uw dochter moeten blijven"
+            },
+            {
+              "id": "c",
+              "text": "Niets"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 23,
+          "question": "U woont 4 jaar legaal in Nederland. Er zijn verkiezingen voor de gemeente. Mag u stemmen voor de gemeente?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Ja, want u woont legaal in Nederland"
+            },
+            {
+              "id": "b",
+              "text": "Nee, want u woont nog geen vijf jaar legaal in Nederland"
+            },
+            {
+              "id": "c",
+              "text": "Ja, want voor de gemeenteraad mogen alle buitenlanders stemmen"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 24,
+          "question": "Chemisch afval mag in de container met groente-, fruit- en tuinafval",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Waar"
+            },
+            {
+              "id": "b",
+              "text": "Niet waar"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 25,
+          "question": "Een loodgieter kan je kapotte kraan repareren",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Waar"
+            },
+            {
+              "id": "b",
+              "text": "Niet waar"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 26,
+          "question": "“Grof huishoudelijk afval” Wat betekent grof?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Vies"
+            },
+            {
+              "id": "b",
+              "text": "Groot"
+            },
+            {
+              "id": "c",
+              "text": "Goed"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 27,
+          "question": "Hoe werkt een kledinginzamelactie?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "U krijgt thuis een plastic zak waar u oude kleding in doet"
+            },
+            {
+              "id": "b",
+              "text": "U krijgt thuis een plastic zak waar u nieuwe kleding in doet"
+            },
+            {
+              "id": "c",
+              "text": "U verzamelt kleding voor de textielbak"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 28,
+          "question": "Waar kunt u textiel naartoe wegbrengen?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Naar de fabriek"
+            },
+            {
+              "id": "b",
+              "text": "Naar de fabriek en de textielbak"
+            },
+            {
+              "id": "c",
+              "text": "Naar de textielbak of kledingsinzamelacties"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 29,
+          "question": "U heeft een volle chemobox. U wilt hem morgen legen. Wat doet u?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "U brengt uw chemobox naar de gemeente"
+            },
+            {
+              "id": "b",
+              "text": "U geeft uw chemobox aan de vuilnisman"
+            },
+            {
+              "id": "c",
+              "text": "U brengt uw chemobox naar de milieustraat"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 30,
+          "question": "U kunt een inschrijfformulier voor de bibliotheek bij de gemeente ophalen",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Waar"
+            },
+            {
+              "id": "b",
+              "text": "Niet waar"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 31,
+          "question": "Als je wilt scheiden, kan een advocaat je helpen",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Waar"
+            },
+            {
+              "id": "b",
+              "text": "Niet waar"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 32,
+          "question": "Als je een woning krijgt aangeboden van de woningbouwvereniging, moet je er gaan wonen",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Waar"
+            },
+            {
+              "id": "b",
+              "text": "Niet waar"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 33,
+          "question": "Hoe verdient een zelfstandig ondernemer geld?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Met een baan"
+            },
+            {
+              "id": "b",
+              "text": "Met een eigen bedrijf"
+            },
+            {
+              "id": "c",
+              "text": "Met een uitkering"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 34,
+          "question": "Wie is de baas in Nederland?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "De koning"
+            },
+            {
+              "id": "b",
+              "text": "De premier"
+            },
+            {
+              "id": "c",
+              "text": "Het volk"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 35,
+          "question": "Bij het consultatiebureau krijgen de ouders van kinderen tot vier jaar advies",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Waar"
+            },
+            {
+              "id": "b",
+              "text": "Niet waar"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 36,
+          "question": "Alle kinderen zijn leerplichtig tot",
+          "answers": [
+            {
+              "id": "a",
+              "text": "16 jaar"
+            },
+            {
+              "id": "b",
+              "text": "17 jaar"
+            },
+            {
+              "id": "c",
+              "text": "18 jaar"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 37,
+          "question": "Het VWO duurt",
+          "answers": [
+            {
+              "id": "a",
+              "text": "4 jaar"
+            },
+            {
+              "id": "b",
+              "text": "5 jaar"
+            },
+            {
+              "id": "c",
+              "text": "6 jaar"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 38,
+          "question": "Het VMBO duurt",
+          "answers": [
+            {
+              "id": "a",
+              "text": "4 jaar"
+            },
+            {
+              "id": "b",
+              "text": "5 jaar"
+            },
+            {
+              "id": "c",
+              "text": "6 jaar"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 39,
+          "question": "U gaat vrijdag op vakantie. De vuilniswagen komt volgende week woensdag pas langs. Uw container zit helemaal vol. Wat doet u?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "U zet de container alvast op straat, dan bent u zeker op tijd"
+            },
+            {
+              "id": "b",
+              "text": "U belt de gemeente en vraagt of ze vrijdag uw container kunnen komen legen"
+            },
+            {
+              "id": "c",
+              "text": "U vraagt de buren of zij uw container buiten kunnen zetten op woensdag"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 40,
+          "question": "Wat is een patiëntenpas?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Een plastic kaartje met NAW gegevens"
+            },
+            {
+              "id": "b",
+              "text": "Een plastic kaart met ziekenhuisafspraken"
+            },
+            {
+              "id": "c",
+              "text": "Een plastic kaartje met informatie over jou en een persoonlijke barcode"
+            }
+          ],
+          "correct_answer": "c"
+        }
+      ]
+    }
+  ]
+}
