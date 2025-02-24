@@ -9,7 +9,7 @@ const quizNumber = urlParams.get("quiz") || "1"; // Default to quiz 1
 const quizIndex = parseInt(quizNumber) - 1; // Convert to 0-based index
 
 // Fetch the questions data
-fetch("questions.json")
+fetch("../data/questions.json")
   .then((response) => response.json())
   .then((data) => {
     if (data.quizzes[quizIndex]) {
