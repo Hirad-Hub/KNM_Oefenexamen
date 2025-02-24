@@ -425,3 +425,65 @@ label {
     font-size: 1.2em;
   }
 }
+
+/*pop up*/
+#popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#popup {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#score {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#score.green {
+  color: green;
+}
+
+#score.orange {
+  color: orange;
+}
+
+#score.red {
+  color: red;
+}
+
+.popup-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-buttons button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#back-to-exam {
+  background: #ccc;
+}
+
+#next-exam {
+  background: #007bff;
+  color: white;
+}

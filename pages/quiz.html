@@ -48,14 +48,71 @@
           ><br />
         </form>
         <div class="quiz_buttons">
-          <button id="back-button" onclick="navigate(-1)">Back</button>
-          <button id="check-button" onclick="checkAnswer()">
-            Check answer
+          <button id="back-button" onclick="navigate(-1)">Terug</button>
           </button>
-          <button id="next-button" onclick="navigate(1)">Next</button>
+          <button id="next-button" onclick="navigate(1)">Volgende</button>
         </div>
       </div>
     </div>
+    <!-- Your quiz content here -->
+
+    <!-- Score Popup -->
+    <div id="score-popup" style="display: none">
+      <div
+        id="popup-content"
+        style="
+          background: white;
+          padding: 20px;
+          border-radius: 10px;
+          width: 300px;
+          text-align: center;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+        "
+      >
+        <h2>Your Score</h2>
+        <p id="score-percentage" style="font-size: 24px; font-weight: bold"></p>
+        <p id="score-message"></p>
+        <button
+          id="back-to-exam"
+          style="
+            margin: 10px;
+            padding: 10px 15px;
+            background: #ddd;
+            border: none;
+            border-radius: 5px;
+          "
+        >
+          Back to Exam
+        </button>
+        <button
+          id="next-exam"
+          style="
+            margin: 10px;
+            padding: 10px 15px;
+            background: #0bac16;
+            color: white;
+            border: none;
+            border-radius: 5px;
+          "
+        >
+          Go to Next Exam
+        </button>
+      </div>
+    </div>
+
+    <!-- Overlay -->
+<div id="popup-overlay" style="display: none;">
+  <div id="popup">
+    <h2>Je Score</h2>
+    <p id="score"></p>
+    <p id="score-message"></p>
+    <div class="popup-buttons">
+      <button id="huis">Huis</button>
+      <button id="volgende">Ga naar volgend examen</button>
+    </div>
+  </div>
+</div>
+
     <footer>
       <div class="footer-text">
         <p>&copy; 2025 Quiz Page. All rights reserved.</p>
