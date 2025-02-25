@@ -54,55 +54,14 @@
         </div>
       </div>
     </div>
-    <!-- Your quiz content here -->
 
-    <!-- Score Popup -->
-    <div id="score-popup" style="display: none">
-      <div
-        id="popup-content"
-        style="
-          background: white;
-          padding: 20px;
-          border-radius: 10px;
-          width: 300px;
-          text-align: center;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
-        "
-      >
-        <h2>Your Score</h2>
-        <p id="score-percentage" style="font-size: 24px; font-weight: bold"></p>
-        <p id="score-message"></p>
-        <button
-          id="back-to-exam"
-          style="
-            margin: 10px;
-            padding: 10px 15px;
-            background: #ddd;
-            border: none;
-            border-radius: 5px;
-          "
-        >
-          Back to Exam
-        </button>
-        <button
-          id="next-exam"
-          style="
-            margin: 10px;
-            padding: 10px 15px;
-            background: #0bac16;
-            color: white;
-            border: none;
-            border-radius: 5px;
-          "
-        >
-          Go to Next Exam
-        </button>
-      </div>
-    </div>
 
     <!-- Overlay -->
 <div id="popup-overlay" style="display: none;">
   <div id="popup">
+    <div class="popup-header">
+      <span class="close-icon material-icons" onclick="closePopup()">close</span>
+    </div>
     <h2>Je Score</h2>
     <p id="score"></p>
     <p id="score-message"></p>

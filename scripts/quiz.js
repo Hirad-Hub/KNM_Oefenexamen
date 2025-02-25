@@ -18,7 +18,7 @@ fetch("../data/questions.json")
   .then((data) => {
     if (data.quizzes[quizIndex]) {
       questionsData = data.quizzes[quizIndex].questions;
-      /*jumpToQuestion(39);*/
+      jumpToQuestion(39);
       loadQuestion(currentQuestionIndex);
     } else {
       console.error("Quiz not found. Loading default quiz 1.");
@@ -147,7 +147,7 @@ function showScorePopup() {
 
   const scorePercentage = Math.ceil((correctAnswers / totalQuestions) * 100);
 
-  // Display the percentage in the score popup
+  document.getElementById("score").innerText = `${scorePercentage}%`;
 
   document.getElementById("score").className =
     scorePercentage >= 60 ? "green" : scorePercentage >= 40 ? "orange" : "red";
@@ -177,7 +177,5 @@ function showScorePopup() {
 }
 
 function closePopup() {
-  document.getElementById("score-popup").remove();
+  document.getElementById("popup-overlay").style.display = "none";
 }
-
-document.getElementById("check-button").remove();

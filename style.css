@@ -487,3 +487,19 @@ label {
   background: #007bff;
   color: white;
 }
+
+.close-icon {
+  position: relative;
+  cursor: pointer;
+  padding: 5px;
+  color: #666;
+  transition: color 0.2s;
+  z-index: 1001; /* Ensure it stays above other elements */
+}
+
+.popup-header {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+}
