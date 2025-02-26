@@ -1,4 +1,4 @@
-import { auth, provider, signInWithPopup } from "/scripts/firebase.js";
+/* import { auth, provider, signInWithPopup } from "./scripts/firebase.js"; */
 
 localStorage.clear();
 let currentQuestionIndex = 0;
