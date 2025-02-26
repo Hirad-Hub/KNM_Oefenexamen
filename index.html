@@ -18,11 +18,16 @@
     <div class="topsection">
       <header>
         <div class="logo">
-          <img src="assets/images/knm_oefenexamen.svg" alt="Logo" width="100" />
-          <!-- Logo Image -->
+          <a href="/index.html">
+            <img
+              src="../assets/images/knm_oefenexamen.svg"
+              alt="Logo"
+              width="100"
+            />
+          </a>
         </div>
         <div class="header-buttons">
-          <button class="sign-in-button">Inloggen</button>
+          <button id="loginBtn">Inloggen</button>
         </div>
       </header>
 
@@ -325,5 +330,30 @@
         </div>
       </footer>
     </div>
+
+    <!-- Add Firebase SDK via CDN -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+      import {
+        getAuth,
+        GoogleAuthProvider,
+        signInWithPopup,
+        signOut,
+      } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+
+      window.firebase = {
+        initializeApp,
+        getAuth,
+        GoogleAuthProvider,
+        signInWithPopup,
+        signOut,
+        getAnalytics,
+      };
+    </script>
+    <!-- Firebase SDK -->
+    <script type="module" src="/scripts/firebase.js"></script>
+    <!-- Your JavaScript -->
+    <script type="module" src="/scripts/quiz.js"></script>
   </body>
 </html>

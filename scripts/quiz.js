@@ -1,3 +1,5 @@
+import { auth, provider, signInWithPopup } from "/scripts/firebase.js";
+
 localStorage.clear();
 let currentQuestionIndex = 0;
 let questionsData = {}; // This will store your quiz data from the JSON file
@@ -18,7 +20,7 @@ fetch("../data/questions.json")
   .then((data) => {
     if (data.quizzes[quizIndex]) {
       questionsData = data.quizzes[quizIndex].questions;
-      jumpToQuestion(39);
+      /*jumpToQuestion(39);*/
       loadQuestion(currentQuestionIndex);
     } else {
       console.error("Quiz not found. Loading default quiz 1.");
@@ -179,3 +181,20 @@ function showScorePopup() {
 function closePopup() {
   document.getElementById("popup-overlay").style.display = "none";
 }
+
+/* Google sign in */
+
+// Get the login button by its ID
+const loginBtn = document.getElementById("loginBtn");
+
+// Add click event listener to the button
+loginBtn.addEventListener("click", async () => {
+  try {
+    // Trigger Google sign-in popup
+    const result = await signInWithPopup(auth, provider);
+    console.log("User:", result.user); // Log the user details to the console
+    // You can save user info to display it on the website
+  } catch (error) {
+    console.error("Login failed", error); // Handle login failure
+  }
+});
