@@ -1,8 +1,15 @@
-/* import { auth, provider, signInWithPopup } from "./scripts/firebase.js"; */
-
-localStorage.clear();
+import { auth, db } from "../scripts/firebase.js";
 let currentQuestionIndex = 0;
 let questionsData = {}; // This will store your quiz data from the JSON file
+
+function clearQuizData() {
+  for (let i = 0; i < 40; i++) {
+    // Assuming max 40 questions
+    localStorage.removeItem(`question-${i}`);
+  }
+}
+
+clearQuizData();
 
 // Fetch the questions data
 const urlParams = new URLSearchParams(window.location.search);
@@ -173,7 +180,6 @@ async function showScorePopup() {
           wrongQuestions: wrongQuestions,
           timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         });
-      console.log("Quiz results saved to Firestore");
     }
   } catch (error) {
     console.error("Error saving quiz results:", error);
@@ -190,6 +196,8 @@ async function showScorePopup() {
       : "Bijna! Blijf oefenen";
 
   // Show the popup
+
+  const popupOverlay = document.getElementById("popup-overlay");
   document.getElementById("popup-overlay").style.display = "flex";
 
   document.getElementById("huis").onclick = () => {
@@ -210,6 +218,7 @@ async function showScorePopup() {
 
 function closePopup() {
   document.getElementById("popup-overlay").style.display = "none";
+  document.querySelector(".quiz-container").style.opacity = "1";
 }
 
 /* Google sign in */
