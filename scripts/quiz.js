@@ -1,15 +1,8 @@
-import { auth, db } from "../scripts/firebase.js";
+/* import { auth, provider, signInWithPopup } from "./scripts/firebase.js"; */
+
+localStorage.clear();
 let currentQuestionIndex = 0;
 let questionsData = {}; // This will store your quiz data from the JSON file
-
-function clearQuizData() {
-  for (let i = 0; i < 40; i++) {
-    // Assuming max 40 questions
-    localStorage.removeItem(`question-${i}`);
-  }
-}
-
-clearQuizData();
 
 // Fetch the questions data
 const urlParams = new URLSearchParams(window.location.search);
@@ -143,47 +136,18 @@ function navigate(direction) {
   }
 }
 
-async function showScorePopup() {
+function showScorePopup() {
   let correctAnswers = 0;
   const totalQuestions = questionsData.length;
-
-  // Collect wrong answers
-  const wrongQuestions = [];
 
   for (let i = 0; i < totalQuestions; i++) {
     const savedAnswer = localStorage.getItem(`question-${i}`);
     if (savedAnswer === questionsData[i].correct_answer) {
       correctAnswers++;
-    } else {
-      wrongQuestions.push({
-        question: questionsData[i].question,
-        yourAnswer: savedAnswer,
-        correctAnswer: questionsData[i].correct_answer,
-      });
     }
   }
 
   const scorePercentage = Math.ceil((correctAnswers / totalQuestions) * 100);
-
-  try {
-    const user = auth.currentUser;
-    if (user) {
-      await db
-        .collection("users")
-        .doc(user.uid)
-        .collection("quizzes")
-        .add({
-          quizNumber: parseInt(quizNumber),
-          score: scorePercentage,
-          correctAnswers: correctAnswers,
-          totalQuestions: totalQuestions,
-          wrongQuestions: wrongQuestions,
-          timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-        });
-    }
-  } catch (error) {
-    console.error("Error saving quiz results:", error);
-  }
 
   document.getElementById("score").innerText = `${scorePercentage}%`;
 
@@ -196,8 +160,6 @@ async function showScorePopup() {
       : "Bijna! Blijf oefenen";
 
   // Show the popup
-
-  const popupOverlay = document.getElementById("popup-overlay");
   document.getElementById("popup-overlay").style.display = "flex";
 
   document.getElementById("huis").onclick = () => {
@@ -218,7 +180,6 @@ async function showScorePopup() {
 
 function closePopup() {
   document.getElementById("popup-overlay").style.display = "none";
-  document.querySelector(".quiz-container").style.opacity = "1";
 }
 
 /* Google sign in */

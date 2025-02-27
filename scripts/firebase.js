@@ -1,4 +1,3 @@
-firebase.js;
 // firebase.js - using compatibility version
 // Initialize Firebase directly from the window object
 const app = firebase.initializeApp({
@@ -15,8 +14,5 @@ const app = firebase.initializeApp({
 const auth = firebase.auth();
 const provider = new firebase.auth.GoogleAuthProvider();
 
-// Get Firestore database reference
-const db = firebase.firestore();
-
 // Export what we need
-export { auth, provider, db };
+export { auth, provider };
