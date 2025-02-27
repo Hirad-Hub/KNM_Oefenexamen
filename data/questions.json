@@ -1448,6 +1448,478 @@
           "correct_answer": "b"
         }
       ]
+    },
+
+    {
+      "quiz_id": 4,
+      "quiz_name": "Oefentoets 04",
+      "questions": [
+        {
+          "question_id": 1,
+          "question": "1. Wat staat er op uw bankpas?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Uw naam, uw bankrekeningnummer en uw pasnummer"
+            },
+            { "id": "b", "text": "Uw naam en pincode" },
+            { "id": "c", "text": "Uw naam en adres" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 2,
+          "question": "2. Een bankafschrift is",
+          "answers": [
+            { "id": "a", "text": "een formulier waarmee u iemand machtigt" },
+            {
+              "id": "b",
+              "text": "een formulier waarop uw inkomsten en uitgaven staan"
+            },
+            { "id": "c", "text": "een formulier waarmee u betaalt" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 3,
+          "question": "3. Een woningzoekende is iemand die",
+          "answers": [
+            { "id": "a", "text": "een woning huurt" },
+            { "id": "b", "text": "een woning zoekt" },
+            { "id": "c", "text": "een woning bezit" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 4,
+          "question": "4. Inwonen betekent",
+          "answers": [
+            {
+              "id": "a",
+              "text": "U woont bij een persoon of meerdere personen in"
+            },
+            { "id": "b", "text": "U woont in een eigen huis" },
+            { "id": "c", "text": "U woont in een stad" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 5,
+          "question": "5. U betaalt gemeentelijke belastingen aan de gemeente, waarin u woont.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 6,
+          "question": "6. U moet de meterstand opnemen en doorgeven. In een meterkast kunt u zien wat de meterstand is.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 7,
+          "question": "7. Ontheffing van de gemeentelijke belastingen betekent",
+          "answers": [
+            {
+              "id": "a",
+              "text": "U hoeft geen belastinggeld aan de gemeente te betalen"
+            },
+            {
+              "id": "b",
+              "text": "U betaalt het belastinggeld aan de gemeente"
+            },
+            {
+              "id": "c",
+              "text": "U betaalt het belastinggeld later aan de gemeente"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 8,
+          "question": "8. Lenardo wil later zijn meterstand op de jaarrekening controleren. Dit kan hij doen door:",
+          "answers": [
+            { "id": "a", "text": "de meterstandenkaart te kopiëren" },
+            {
+              "id": "b",
+              "text": "een email van zijn ingevulde gegevens te laten sturen"
+            },
+            { "id": "c", "text": "het energiebedrijf te bellen" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 9,
+          "question": "9. U heeft het afgelopen jaar meer energie verbruikt dan geschat. Uw voorschotbedrag wordt het komende jaar hoger.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 10,
+          "question": "10. Een “stop” zit in",
+          "answers": [
+            { "id": "a", "text": "de meterkast" },
+            { "id": "b", "text": "een elektrisch apparaat" },
+            { "id": "c", "text": "een stopcontact" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 11,
+          "question": "11. Uw verpleegadres is ...",
+          "answers": [
+            { "id": "a", "text": "Het adres waar uw verpleger woont" },
+            { "id": "b", "text": "Het adres waar uw bedrijfsarts werkt" },
+            { "id": "c", "text": "Het adres waar u bent tijdens uw ziekte" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 12,
+          "question": "12. Hoe heet de afdeling van het ziekenhuis waar je een onderzoek krijgt?",
+          "answers": [
+            { "id": "a", "text": "De opname" },
+            { "id": "b", "text": "De polikliniek" },
+            { "id": "c", "text": "De behandelkamer" },
+            { "id": "d", "text": "De post" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 13,
+          "question": "13. Geld dat je van de belasting terugkrijgt voor je zorgverzekering heet",
+          "answers": [
+            { "id": "a", "text": "premie" },
+            { "id": "b", "text": "zorgtoeslag" },
+            { "id": "c", "text": "eigen risico" },
+            { "id": "d", "text": "ziektekosten" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 14,
+          "question": "14. Friya is op vakantie in Nederland. Ze wil Den Haag bezoeken. Kan Friya daar zien waar het parlement van Nederland is?",
+          "answers": [
+            { "id": "a", "text": "Nee, het parlement is in Amsterdam" },
+            { "id": "b", "text": "Ja, het parlement is in Den Haag" },
+            {
+              "id": "c",
+              "text": "Nee, ze kunnen het parlement in Rotterdam zien"
+            }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 15,
+          "question": "15. Soms komt de huisarts bij mensen thuis.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 16,
+          "question": "16. Aan slaapmiddelen kun je verslaafd raken.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 17,
+          "question": "17. De huurcommissie kan je helpen bij problemen met je huisbaas.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 18,
+          "question": "18. U heeft een hond gekregen. Wat doet u?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "U moet dit aan de gemeente doorgeven en belasting betalen"
+            },
+            {
+              "id": "b",
+              "text": "U mag dit doorgeven aan de gemeente en belasting betalen"
+            },
+            {
+              "id": "c",
+              "text": "U hoeft dit niet door te geven aan de gemeente"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 19,
+          "question": "19. Wat schrijf je op een kaart aan een vriendin die ziek is?",
+          "answers": [
+            { "id": "a", "text": "Beterschap" },
+            { "id": "b", "text": "Gefeliciteerd" },
+            { "id": "c", "text": "Gecondoleerd" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 20,
+          "question": "20. Waarom wordt in Nederland het afval gescheiden?",
+          "answers": [
+            { "id": "a", "text": "Omdat alles netjes is" },
+            {
+              "id": "b",
+              "text": "Omdat sommige spullen opnieuw gebruikt kunnen worden (recyclen)"
+            },
+            { "id": "c", "text": "Omdat het goedkoper is" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 21,
+          "question": "21. Bij kortsluiting zorgt de aardlekschakelaar dat de stroom",
+          "answers": [
+            { "id": "a", "text": "blijft werken" },
+            { "id": "b", "text": "wordt uitgeschakeld" },
+            { "id": "c", "text": "gaat branden" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 22,
+          "question": "22. Uw koelkast is kapot. U heeft een nieuwe gekocht. Wat doet u met de oude koelkast?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Er zitten geen gevaarlijke stoffen in, dus zet ik het op straat bij de gewone container"
+            },
+            {
+              "id": "b",
+              "text": "Er zitten wel gevaarlijke stoffen in, dus zet ik het bij de chemobox"
+            },
+            {
+              "id": "c",
+              "text": "Het is te groot voor de container, dus moet het naar de milieustraat"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 23,
+          "question": "23. In Nederland mogen de ouders niet de school voor hun kinderen kiezen.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 24,
+          "question": "24. De IND beslist of je een verblijfsvergunning krijgt.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 25,
+          "question": "25. Tot welke leeftijd heeft u recht op studiefinanciering?",
+          "answers": [
+            { "id": "a", "text": "Tot 18 jaar" },
+            { "id": "b", "text": "Voor altijd" },
+            { "id": "c", "text": "Vanaf 18 jaar" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 26,
+          "question": "26. Het onderwijs ontvangt subsidie van:",
+          "answers": [
+            { "id": "a", "text": "De Nederlandse overheid" },
+            { "id": "b", "text": "De Nederlandse bank" },
+            { "id": "c", "text": "De Nederlandse bedrijven" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 27,
+          "question": "27. Een cursus is:",
+          "answers": [
+            {
+              "id": "a",
+              "text": "een aantal lessen over een bepaald onderwerp"
+            },
+            { "id": "b", "text": "één les over een onderwerp" },
+            { "id": "c", "text": "een 4-jarige opleiding" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 28,
+          "question": "28. U",
+          "answers": [
+            { "id": "a", "text": "Hebben jullie zin om te wandelen?" },
+            { "id": "b", "text": "Vinden jullie het leuk om te komen eten?" },
+            { "id": "c", "text": "In welk restaurant willen jullie eten?" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 29,
+          "question": "29. Deze huizen zijn goed geïsoleerd tegen geluid betekent:",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Deze huizen laten minder geluid door naar binnen of naar buiten"
+            },
+            { "id": "b", "text": "Deze huizen staan alleen" },
+            {
+              "id": "c",
+              "text": "Deze huizen laten veel geluid door naar binnen of naar buiten"
+            }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 30,
+          "question": "30. Er wordt binnenkort een wijkfeest gehouden. De buren vinden het fijn als iedereen helpt met organiseren. Wat zegt u tegen de buren?",
+          "answers": [
+            { "id": "a", "text": "Ik wil helpen. Wat kan ik doen?" },
+            { "id": "b", "text": "Ik hoor het wel als alles klaar is" },
+            { "id": "c", "text": "Ik kom alleen als er eten is" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 31,
+          "question": "31. U zit te zonnen in uw tuin. De buren houden nu al voor de derde dag achter elkaar een barbecue en u heeft weer erg last van de rook. Wat doet u?",
+          "answers": [
+            { "id": "a", "text": "U belt de politie" },
+            {
+              "id": "b",
+              "text": "U vertelt de buren dat u last heeft van de rook en of ze hem volgende keer van te voren kunnen waarschuwen"
+            },
+            { "id": "c", "text": "U gaat verhuizen" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "question_id": 32,
+          "question": "32. Waar krijgen de baby's vaccinaties?",
+          "answers": [
+            { "id": "a", "text": "Bij de GGD" },
+            { "id": "b", "text": "Bij de huisarts" },
+            { "id": "c", "text": "Bij het consultatiebureau" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 33,
+          "question": "33. Wie groeten elkaar waarschijnlijk vaker?",
+          "answers": [
+            { "id": "a", "text": "mensen in een dorp" },
+            { "id": "b", "text": "mensen in een stad" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 34,
+          "question": "34. Je kind is in het weekend gevallen, misschien is zijn arm gebroken. Wat moet je doen?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Je doet niets en kijkt of het maandag over is"
+            },
+            { "id": "b", "text": "Je belt 112" },
+            { "id": "c", "text": "Je belt de huisartsenpost" },
+            {
+              "id": "d",
+              "text": "Je gaat naar de spoedeisende hulp in het ziekenhuis"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 35,
+          "question": "35. Je moet je identiteitskaart meenemen naar het ziekenhuis.",
+          "answers": [
+            { "id": "a", "text": "Waar" },
+            { "id": "b", "text": "Niet waar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 36,
+          "question": "36. “Ze is in slaap gevallen.” betekent:",
+          "answers": [
+            { "id": "a", "text": "Ze is gaan slapen" },
+            { "id": "b", "text": "Ze is rustig" },
+            { "id": "c", "text": "Ze is wakker" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 37,
+          "question": "37. Lena en Marieke werken in de fabriek. Een transportauto met veel kleding is binnengekomen. Zij moeten nu alles netjes opruimen. Ze verdelen het werk goed, want Marieke zegt: “Vele handen maken licht werk”. Wat bedoelt Marieke?",
+          "answers": [
+            { "id": "a", "text": "Ze gaan het licht aandoen op het werk" },
+            { "id": "b", "text": "Lena moet beide handen gebruiken" },
+            {
+              "id": "c",
+              "text": "Als iedereen een beetje helpt, wordt het voor iedereen makkelijker"
+            }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "question_id": 38,
+          "question": "38. Lena praat met Marieke. Lena moet alle kleding per kleur verdelen, Marieke moet alle kleding per maat verdelen. Wat doet Lena?",
+          "answers": [
+            {
+              "id": "a",
+              "text": "Zij doet alle rode kleding bij rode kleding"
+            },
+            {
+              "id": "b",
+              "text": "Zij doet de grote kleding bij de grote kleding"
+            },
+            { "id": "c", "text": "Zij gooit alle kleding bij elkaar" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 39,
+          "question": "39. Lena heeft Marieke ook geholpen met kleding vouwen, want Marieke had niet zoveel tijd. Wat doet Marieke?",
+          "answers": [
+            { "id": "a", "text": "Zij bedankt Lena voor haar hulp" },
+            { "id": "b", "text": "Zij doet niets" },
+            { "id": "c", "text": "Zij zegt dat het zo hoort" }
+          ],
+          "correct_answer": "a"
+        },
+        {
+          "question_id": 40,
+          "question": "40. Wat is de hoofdstad van de provincie Flevoland?",
+          "answers": [
+            { "id": "a", "text": "Almere" },
+            { "id": "b", "text": "Lelystad" },
+            { "id": "c", "text": "Flevostad" }
+          ],
+          "correct_answer": "b"
+        }
+      ]
     }
   ]
 }
