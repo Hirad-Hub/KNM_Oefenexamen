@@ -1,3 +1,4 @@
+firebase.js;
 // firebase.js - using compatibility version
 // Initialize Firebase directly from the window object
 const app = firebase.initializeApp({

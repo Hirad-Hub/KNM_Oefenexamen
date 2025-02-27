@@ -20,7 +20,7 @@ fetch("../data/questions.json")
   .then((data) => {
     if (data.quizzes[quizIndex]) {
       questionsData = data.quizzes[quizIndex].questions;
-      /*jumpToQuestion(39);*/
+      jumpToQuestion(39);
       loadQuestion(currentQuestionIndex);
     } else {
       console.error("Quiz not found. Loading default quiz 1.");
@@ -136,18 +136,48 @@ function navigate(direction) {
   }
 }
 
-function showScorePopup() {
+async function showScorePopup() {
   let correctAnswers = 0;
   const totalQuestions = questionsData.length;
+
+  // Collect wrong answers
+  const wrongQuestions = [];
 
   for (let i = 0; i < totalQuestions; i++) {
     const savedAnswer = localStorage.getItem(`question-${i}`);
     if (savedAnswer === questionsData[i].correct_answer) {
       correctAnswers++;
+    } else {
+      wrongQuestions.push({
+        question: questionsData[i].question,
+        yourAnswer: savedAnswer,
+        correctAnswer: questionsData[i].correct_answer,
+      });
     }
   }
 
   const scorePercentage = Math.ceil((correctAnswers / totalQuestions) * 100);
+
+  try {
+    const user = auth.currentUser;
+    if (user) {
+      await db
+        .collection("users")
+        .doc(user.uid)
+        .collection("quizzes")
+        .add({
+          quizNumber: parseInt(quizNumber),
+          score: scorePercentage,
+          correctAnswers: correctAnswers,
+          totalQuestions: totalQuestions,
+          wrongQuestions: wrongQuestions,
+          timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+        });
+      console.log("Quiz results saved to Firestore");
+    }
+  } catch (error) {
+    console.error("Error saving quiz results:", error);
+  }
 
   document.getElementById("score").innerText = `${scorePercentage}%`;
 
