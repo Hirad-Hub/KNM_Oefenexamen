@@ -13,22 +13,22 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-<!-- Firebase SDK -->
-<script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics-compat.js"></script>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics-compat.js"></script>
   </head>
   <body>
     <div class="topsection">
       <header>
         <div class="logo">
-           <a id="logo-link">
-          <img
-            src="../assets/images/knm_oefenexamen.svg"
-            alt="Logo"
-            width="100"
-          />
-           </a>
+          <a id="logo-link">
+            <img
+              src="../assets/images/knm_oefenexamen.svg"
+              alt="Logo"
+              width="100"
+            />
+          </a>
         </div>
         <div class="header-buttons">
           <button class="sign-in-button">Inloggen</button>
@@ -54,42 +54,46 @@
         </form>
         <div class="quiz_buttons">
           <button id="back-button" onclick="navigate(-1)">Terug</button>
-          </button>
           <button id="next-button" onclick="navigate(1)">Volgende</button>
         </div>
       </div>
     </div>
 
-
     <!-- Overlay -->
-<div id="popup-overlay" style="display: none;">
-  <div id="popup">
-    <div class="popup-header">
-      <span class="close-icon material-icons" onclick="closePopup()">close</span>
+    <div id="popup-overlay" style="display: none">
+      <div id="popup">
+        <div class="popup-header">
+          <span class="close-icon material-icons" onclick="closePopup()"
+            >close</span
+          >
+        </div>
+        <h2>Je Score</h2>
+        <p id="score"></p>
+        <p id="score-message"></p>
+        <div class="popup-buttons">
+          <button id="huis">Huis</button>
+          <button id="volgende">Ga naar volgend examen</button>
+        </div>
+      </div>
     </div>
-    <h2>Je Score</h2>
-    <p id="score"></p>
-    <p id="score-message"></p>
-    <div class="popup-buttons">
-      <button id="huis">Huis</button>
-      <button id="volgende">Ga naar volgend examen</button>
-    </div>
-  </div>
-</div>
 
     <footer>
       <div class="footer-text">
         <p>&copy; 2025 Quiz Page. All rights reserved.</p>
       </div>
     </footer>
-      <script>
-    // Check if running locally
-    const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-    
-    // Set link dynamically
-    document.getElementById("logo-link").href = isLocal ? "../index.html" : "https://hirad-hub.github.io/knm/";
-  </script>
-     <script type="module" src="../scripts/firebase.js"></script>
+    <script>
+      // Check if running locally
+      const isLocal =
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1";
+
+      // Set link dynamically
+      document.getElementById("logo-link").href = isLocal
+        ? "../index.html"
+        : "https://hirad-hub.github.io/knm/";
+    </script>
+    <script type="module" src="../scripts/firebase.js"></script>
     <script type="module" src="../scripts/quiz.js"></script>
   </body>
 </html>

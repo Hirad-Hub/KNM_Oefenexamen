@@ -20,7 +20,7 @@ fetch("../data/questions.json")
   .then((data) => {
     if (data.quizzes[quizIndex]) {
       questionsData = data.quizzes[quizIndex].questions;
-      jumpToQuestion(39);
+      // jumpToQuestion(39);
       loadQuestion(currentQuestionIndex);
     } else {
       console.error("Quiz not found. Loading default quiz 1.");
@@ -82,7 +82,8 @@ function loadQuestion(index) {
     input.onclick = () => checkAnswer(input, question.correct_answer);
   });
 
-  document.getElementById("back-button").disabled = index === 0;
+  const backButton = document.getElementById("back-button");
+  backButton.disabled = index === 0 ? true : false; // Explicitly enable when needed
 
   // Change "Next" button to "Finish" on the last question
   const nextButton = document.getElementById("next-button");
@@ -126,15 +127,18 @@ function checkAnswer(selectedInput, correctAnswer) {
   }
 }
 
-function navigate(direction) {
+window.navigate = function (direction) {
   if (direction === 1 && currentQuestionIndex < questionsData.length - 1) {
     currentQuestionIndex++;
-    loadQuestion(currentQuestionIndex);
   } else if (direction === -1 && currentQuestionIndex > 0) {
     currentQuestionIndex--;
-    loadQuestion(currentQuestionIndex);
   }
-}
+
+  loadQuestion(currentQuestionIndex);
+
+  // Explicitly enable/disable the back button
+  document.getElementById("back-button").disabled = currentQuestionIndex === 0;
+};
 
 function showScorePopup() {
   let correctAnswers = 0;
