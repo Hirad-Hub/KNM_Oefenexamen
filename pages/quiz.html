@@ -22,7 +22,7 @@
     <div class="topsection">
       <header>
         <div class="logo">
-           <a href="../index.html">
+           <a id="logo-link">
           <img
             src="../assets/images/knm_oefenexamen.svg"
             alt="Logo"
@@ -82,6 +82,13 @@
         <p>&copy; 2025 Quiz Page. All rights reserved.</p>
       </div>
     </footer>
+      <script>
+    // Check if running locally
+    const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+    
+    // Set link dynamically
+    document.getElementById("logo-link").href = isLocal ? "../index.html" : "https://hirad-hub.github.io/knm/";
+  </script>
      <script type="module" src="../scripts/firebase.js"></script>
     <script type="module" src="../scripts/quiz.js"></script>
   </body>
