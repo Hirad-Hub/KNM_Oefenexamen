@@ -184,17 +184,48 @@ function closePopup() {
 
 /* Google sign in */
 
-// Get the login button by its ID
-const loginBtn = document.getElementById("loginBtn");
+// Get the login button by its class name
+const loginBtn = document.querySelector(".sign-in-button");
 
 // Add click event listener to the button
 loginBtn.addEventListener("click", async () => {
   try {
-    // Trigger Google sign-in popup
-    const result = await signInWithPopup(auth, provider);
-    console.log("User:", result.user); // Log the user details to the console
-    // You can save user info to display it on the website
+    import("../scripts/firebase.js").then(({ auth, provider }) => {
+      firebase
+        .auth()
+        .signInWithPopup(provider)
+        .then((result) => {
+          console.log("User:", result.user); // Log the user details to the console
+
+          // Change the login button to show the user's name or email
+          const user = result.user;
+          loginBtn.textContent = user.displayName || user.email;
+
+          // Optional: Store the user info in localStorage for persistence
+          localStorage.setItem(
+            "user",
+            JSON.stringify({
+              displayName: user.displayName,
+              email: user.email,
+              photoURL: user.photoURL,
+            })
+          );
+        })
+        .catch((error) => {
+          console.error("Login failed", error);
+        });
+    });
   } catch (error) {
-    console.error("Login failed", error); // Handle login failure
+    console.error("Import error:", error);
+  }
+});
+
+// Check if user is already logged in on page load
+document.addEventListener("DOMContentLoaded", function () {
+  const savedUser = localStorage.getItem("user");
+  if (savedUser) {
+    const user = JSON.parse(savedUser);
+    const loginBtn = document.querySelector(".sign-in-button");
+    loginBtn.textContent = user.displayName || user.email;
   }
 });
