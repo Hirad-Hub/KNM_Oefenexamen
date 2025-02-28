@@ -218,11 +218,23 @@ label {
   border-radius: 12px;
 }
 
+/* .quiz_buttons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 64px;
+  justify-content: space-between;
+  
+} */
+
 .quiz_buttons {
   display: flex;
   flex-direction: row;
   padding-top: 64px;
   justify-content: space-between;
+  width: 100%; /* Ensure it doesn’t exceed its container */
+  max-width: 100%; /* Prevent overflow */
+  overflow: hidden; /* Hide any overflowing content */
+  box-sizing: border-box; /* Include padding in the total width */
 }
 
 #check-button,

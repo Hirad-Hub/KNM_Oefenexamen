@@ -91,7 +91,7 @@ function loadQuestion(index) {
     nextButton.innerText = "Voltooien";
     nextButton.onclick = showScorePopup;
   } else {
-    nextButton.innerText = "Next";
+    nextButton.innerText = "Volgende";
     nextButton.onclick = () => navigate(1);
   }
 }
