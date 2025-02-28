@@ -20,7 +20,7 @@ fetch("../data/questions.json")
   .then((data) => {
     if (data.quizzes[quizIndex]) {
       questionsData = data.quizzes[quizIndex].questions;
-      jumpToQuestion(39);
+      // jumpToQuestion(39);
       loadQuestion(currentQuestionIndex);
     } else {
       console.error("Quiz not found. Loading default quiz 1.");
