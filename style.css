@@ -374,7 +374,7 @@ label {
   }
   .quiz-card {
     width: 90vw; /* Take up 95% of the viewport width on smaller screens */
-    max-width: none; /* Remove the max-width to allow it to be flexible */
+    max-width: none;
   }
 }
 
