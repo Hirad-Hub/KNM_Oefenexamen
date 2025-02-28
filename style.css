@@ -359,10 +359,6 @@ label {
     justify-content: center;
   }
 
-  footer {
-    display: none;
-  }
-
   body {
     justify-content: flex-start;
   }
