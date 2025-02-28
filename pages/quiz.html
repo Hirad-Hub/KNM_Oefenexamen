@@ -64,13 +64,22 @@
     <div id="popup-overlay" style="display: none">
       <div id="popup">
         <div class="popup-header">
-          <span class="close-icon material-icons" onclick="closePopup()"
+          <span style="color: white">.....</span>
+
+          <h2>Je Score</h2>
+          <span
+            class="close-icon material-icons"
+            onclick="closePopup()"
+            style="width: 32px; height: 32px; font-size: 32px"
             >close</span
           >
         </div>
-        <h2>Je Score</h2>
-        <p id="score"></p>
-        <p id="score-message"></p>
+
+        <div id="score-container">
+          <p id="score"></p>
+          <p id="score-message"></p>
+        </div>
+
         <div class="popup-buttons">
           <button id="huis">Huis</button>
           <button id="volgende">Ga naar volgend examen</button>

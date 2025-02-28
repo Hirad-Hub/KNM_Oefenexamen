@@ -231,7 +231,8 @@ label {
 }
 
 #check-button,
-#next-button {
+#next-button,
+#volgende {
   background-color: #196bc8;
   border: none;
   color: rgb(255, 255, 255);
@@ -242,7 +243,8 @@ label {
 }
 
 #check-button:hover,
-#next-button:hover {
+#next-button:hover,
+#volgende:hover {
   background-color: #0a4e9c;
   border: none;
   color: rgb(255, 255, 255);
@@ -252,7 +254,8 @@ label {
   font-size: 16px;
 }
 
-#back-button {
+#back-button,
+#huis {
   background-color: hsla(0, 0%, 100%, 0.297);
   border: 1px solid #0a152300;
   color: rgba(125, 125, 127, 0.951);
@@ -262,7 +265,8 @@ label {
   font-size: 16px;
 }
 
-#back-button:hover {
+#back-button:hover,
+#huis:hover {
   background-color: hsla(0, 0%, 100%, 0.8);
   border: 1px solid #0a152356;
   color: rgba(15, 11, 42, 0.951);
@@ -469,16 +473,29 @@ label {
 
 #popup {
   background: #fff;
-  padding: 20px;
+  padding: 24px;
   border-radius: 10px;
   text-align: center;
-  width: 300px;
+  width: 400px;
+  height: 320px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-between; /* Space items evenly */
 }
 
 #score {
-  font-size: 24px;
+  font-size: 40px;
+  margin: 0;
   font-weight: bold;
+}
+
+#score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0px;
 }
 
 #score.green {
@@ -526,7 +543,9 @@ label {
 
 .popup-header {
   display: flex;
-  justify-content: right;
+  height: 40px;
+  font-size: 20px;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
