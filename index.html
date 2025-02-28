@@ -13,6 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+     <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics-compat.js"></script>
   </head>
   <body>
     <div class="topsection">
@@ -378,29 +382,18 @@
           </p>
         </div>
       </footer>
-    </div>
+    <script>
+      // Check if running locally
+      const isLocal =
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1";
 
-    <!-- Add Firebase SDK via CDN -->
-    <script type="module">
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
-      import {
-        getAuth,
-        GoogleAuthProvider,
-        signInWithPopup,
-        signOut,
-      } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
-
-      window.firebase = {
-        initializeApp,
-        getAuth,
-        GoogleAuthProvider,
-        signInWithPopup,
-        signOut,
-        getAnalytics,
-      };
+      // Set link dynamically
+      document.getElementById("logo-link").href = isLocal
+        ? "../index.html"
+        : "https://hirad-hub.github.io/knm/";
     </script>
-    <!-- Firebase SDK -->
-    <script type="module" src="scripts/firebase.js"></script>
+    <script type="module" src="../scripts/firebase.js"></script>
+    <script type="module" src="../scripts/quiz.js"></script>
   </body>
 </html>

@@ -189,38 +189,31 @@ function closePopup() {
 /* Google sign in */
 
 // Get the login button by its class name
-const loginBtn = document.querySelector(".sign-in-button");
 
 // Add click event listener to the button
+import { auth, provider, signInWithPopup } from "../scripts/firebase.js";
+
+const loginBtn = document.querySelector(".sign-in-button");
+
 loginBtn.addEventListener("click", async () => {
   try {
-    import("../scripts/firebase.js").then(({ auth, provider }) => {
-      firebase
-        .auth()
-        .signInWithPopup(provider)
-        .then((result) => {
-          console.log("User:", result.user); // Log the user details to the console
+    const result = await signInWithPopup(auth, provider);
+    console.log("User:", result.user);
 
-          // Change the login button to show the user's name or email
-          const user = result.user;
-          loginBtn.textContent = user.displayName || user.email;
+    // Update login button text
+    loginBtn.textContent = result.user.displayName || result.user.email;
 
-          // Optional: Store the user info in localStorage for persistence
-          localStorage.setItem(
-            "user",
-            JSON.stringify({
-              displayName: user.displayName,
-              email: user.email,
-              photoURL: user.photoURL,
-            })
-          );
-        })
-        .catch((error) => {
-          console.error("Login failed", error);
-        });
-    });
+    // Store user info in localStorage
+    localStorage.setItem(
+      "user",
+      JSON.stringify({
+        displayName: result.user.displayName,
+        email: result.user.email,
+        photoURL: result.user.photoURL,
+      })
+    );
   } catch (error) {
-    console.error("Import error:", error);
+    console.error("Login failed", error);
   }
 });
 
