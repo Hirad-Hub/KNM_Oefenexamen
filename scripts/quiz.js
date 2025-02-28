@@ -182,6 +182,16 @@ function showScorePopup() {
   };
 }
 
+// Ensure this is after the DOM content is fully loaded
+document.addEventListener("DOMContentLoaded", function () {
+  const closeButton = document.querySelector(".close-icon");
+
+  // Check if the close button exists
+  if (closeButton) {
+    closeButton.addEventListener("click", closePopup);
+  }
+});
+
 function closePopup() {
   document.getElementById("popup-overlay").style.display = "none";
 }
